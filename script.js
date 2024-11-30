@@ -3,7 +3,12 @@ const dataList = document.getElementById("dataList");
 
 loadBtn.addEventListener("click", () => {
   const xhr = new XMLHttpRequest();
-  xhr.open("GET", "get.json", true);
+  // api url: https://raw.githubusercontent.com/taher-dev/web-prog-lab-clp/refs/heads/main/get.json
+  xhr.open(
+    "GET",
+    "https://raw.githubusercontent.com/taher-dev/web-prog-lab-clp/refs/heads/main/get.json",
+    true
+  );
 
   xhr.onload = () => {
     let data = JSON.parse(xhr.responseText);
