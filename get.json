@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Taher",
+    "id": 1,
+    "dept": "CSE"
+  },
+  {
+    "name": "Araf",
+    "id": 2,
+    "dept": "TEX"
+  },
+  {
+    "name": "Arafat",
+    "id": 3,
+    "dept": "EEE"
+  },
+  {
+    "name": "Anushka",
+    "id": 4,
+    "dept": "CSE"
+  },
+  {
+    "name": "Karniz",
+    "id": 5,
+    "dept": "TEX"
+  }
+]
