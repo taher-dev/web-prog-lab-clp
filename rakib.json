@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Mercury",
+    "distance_from_sun": 57.9
+  },
+  {
+    "name": "Venus",
+    "distance_from_sun": 108.2
+  },
+  {
+    "name": "Earth",
+    "distance_from_sun": 149.6
+  },
+  {
+    "name": "Mars",
+    "distance_from_sun": 227.9
+  },
+  {
+    "name": "Jupiter",
+    "distance_from_sun": 778.5
+  },
+  {
+    "name": "Saturn",
+    "distance_from_sun": 1433.5
+  },
+  {
+    "name": "Uranus",
+    "distance_from_sun": 2872.5
+  },
+  {
+    "name": "Neptune",
+    "distance_from_sun": 4495.1
+  }
+]
