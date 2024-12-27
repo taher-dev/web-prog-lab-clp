@@ -4,11 +4,7 @@ const dataList = document.getElementById("dataList");
 loadBtn.addEventListener("click", () => {
   const xhr = new XMLHttpRequest();
   // api url: https://raw.githubusercontent.com/taher-dev/web-prog-lab-clp/refs/heads/main/get.json
-  xhr.open(
-    "GET",
-    "https://raw.githubusercontent.com/taher-dev/web-prog-lab-clp/refs/heads/main/get.json",
-    true
-  );
+  xhr.open("GET", "rakib.json", true);
 
   xhr.onload = () => {
     let data = JSON.parse(xhr.responseText);
